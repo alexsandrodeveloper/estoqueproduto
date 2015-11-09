@@ -1,0 +1,87 @@
+@CHARSET "ISO-8859-1";
+
+body{
+	border: solid #F0FFF0;
+	height:auto; 
+	width: auto;
+	background-color: #F0FFF0;
+}
+
+#imgFundo{
+	
+	width: 1000px;
+	height: auto;
+	margin-left: 250px;
+	margin-top: 10px;
+}
+
+.texotEstoqueProdutos{
+	color: #0000CD;
+	text-align: center;
+	width: 400px;
+	margin-left: 800px;
+	margin-top: 100px;
+	font-size: x-large;
+	background-color: #C6E2FF;
+	font-weight: bold;
+}
+
+.textobv{	
+	font-size: 20px;
+	font-style: italic;
+	padding-left: 0px;
+	width:400px;
+    float: left;
+    color: #FF0000;	
+    margin-top: auto;
+    float: left;
+}
+
+#menu ul {
+	padding:0px;
+	float: left;
+	background-color:#B0E2FF;
+	list-style:none;
+	font:80% Tahoma;
+	border: solid #00008B;
+	width: 170px;
+	margin-left: 60px;
+}
+ 
+#menu ul li { display: list-item; }
+ 
+#menu ul li a {
+	background-color:#00FF7F;
+	color: #333;
+	text-decoration: none;
+	padding: 10px;
+	padding-left: 30px;
+	float:left;
+	border: solid #43CD80;
+	margin: 10px;
+	margin-left: 20px;
+	width: 70px;
+	border: 3px solid #1E90FF;
+}
+
+#textoMenu{
+	border-bottom: solid #00008B;
+	background-color: #87CEFF;
+	font-weight: bold;
+	font-size: 20px;
+	padding-left: 40px;
+}
+ 
+#menu ul li a:hover {
+	background-color:#D6D6D6;
+	color: #6D6D6D;
+	border-bottom:3px solid #EA0000;
+}
+
+
+.footer {
+	position: fixed;
+    bottom: 0;
+    margin-left: 700px;
+		
+}

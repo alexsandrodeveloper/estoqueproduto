@@ -1,0 +1,85 @@
+@CHARSET "ISO-8859-1";
+
+body{
+	height:100%;
+	background-color: #F0FFF0;
+}
+
+div#tudo{
+	width: 1896px;	
+	min-height: 100%;
+	position:relative; 
+	margin:0 auto;			
+	text-align:left; /* "remédio" para o hack do IE */	
+}
+
+#conteudo{
+	padding: 5px;
+}
+
+#txttitulo{
+    font-size: x-large;
+	margin-right:300px;
+	background-color: #FFDEAD;
+	width: 200px; 
+	padding-left: 20px;
+	margin-left: 800px;
+	margin-top: 50px;
+	font-family: arial;
+	font-style: oblique;
+	color: red;
+}
+
+#img{
+	margin-left: 660px;	
+	margin-top: 10px;
+	width: 500px;
+	border: solid;
+	border-color: #8B3A3A;
+}
+
+#txinformativo{
+	width: 800px; 
+	padding-left: 20px;
+	margin-top: 40px;
+	margin-left: 600px ;
+}
+
+#submitBuscar{
+	margin-left: 10px;
+	width: 70px;
+	height: 30px;
+}
+
+#btvoltar{
+	margin-left: 10px;
+	width: 70px;
+	height: 30px;
+}
+
+.footer {	
+	position:fixed;
+	bottom:0;
+	margin-left:650px;
+}
+
+label.error { 
+	border: solid;
+	border-color: red;
+	float: none; 
+	color: red;
+	font-size: 10px; 
+	margin-top: 500px;
+}
+
+#divtbl{
+	width: 700px;
+	margin-left: 600px;
+	margin-top: 30px;	
+}
+
+#prodNaoEncontrado{
+	color:red;
+	font-weight: bold;
+	font-style: italic;"
+}
